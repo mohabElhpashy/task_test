@@ -4,8 +4,10 @@ import HeaderContent from './Components/Header_Content'
 import Hashheader from './Components/Hasheader'
 import Table from './Components/Cotent';
 import Heads from './Components/Header'
+import Modal from 'react-modal'
 import Portal from './Components/Portaltransfeer';
 import ModalCofin from './Components/PortalConfirmation'
+import {Provider} from './hooks'
 import Portalll  from  './Components/PortalNotification';
 
 function App() {
