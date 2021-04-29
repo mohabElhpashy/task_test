@@ -1,6 +1,5 @@
 import React,{Fragment} from 'react'
 import Notification from '../icons/Test.svg';
-import Notificationb from '../icons/Notiblue.svg';
 
 import IMAGe from '../icons/Image.svg';
 import Arrow from '../icons/Arrowdown.svg';
