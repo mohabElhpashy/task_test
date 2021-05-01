@@ -10,14 +10,13 @@ export default function Header_Content({portalch}) {
                 <div style={{textAlign:'left',marginTop:'10px'}}>
                     <button>1D</button>
                     <button style={{backgroundColor:'#1EC1C3'}}>1M</button>
-                    <button>1Y</button>
-
-                </div>
+                    <button>1Y</button> </div>
             </div>
+
             <div className='Totla_Check_out'>
                 <div className='MAin_Checkout'> 
             <div style={{textAlign:'left',marginTop:'20px'}}>Totla Checkouts</div>
-                <div style={{textAlign:'left',marginTop:'10px'}}>
+             <div style={{textAlign:'left',marginTop:'10px'}}>
                  <p> <span style={{color:'#1EC1C3',fontSize:'30px'}}> 72</span>/82</p>
                 </div>
                

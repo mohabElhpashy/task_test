@@ -45,32 +45,11 @@ const closeConfirmationmodal=()=>{
          <div className='Header-Content' ><HeaderContent  /></div>
          <div className='Content-body'><Table/></div>
          </div>
-      
-       <div className='Hash-Header'><Hashheader  openModal={openModall}
-       /></div>
+      <div className='Hash-Header'><Hashheader  openModal={openModall}/></div>
 
        </div>
-      
-
-
-     </main>
-     {/* <Modal
-     style={customStyles}
-     isOpen={ModalTransfer}
-     >
-       <div style={{color:'white'}}>
-         <h2>Transfer</h2>
-         <label>transfer to</label><br/>
-         <input  placeholder='enter the email addres' style={{width:'500px',backgroundColor:'#282C58',border:'1px solid #282C58',height:'50px'}} type='email'/>
-       </div>
-       <div style={{ backgroundColor:'#282C58',textAlign:'right',marginTop:'40px',height:'65px',display:'flex',alignItems:'center',justifyContent:'flex-end'}}>
-    <button onClick={()=>setModalTransfer(false)} style={{color:'white',marginRight:'15px',width:'135px',height:'48px',backgroundColor:'#2D325A',border:'1px solid #2D325A'}}>cancel</button>
-    <button style={{color:'white',marginRight:'15px',width:'135px',height:'48px',backgroundColor:'#1EC1C3',border:'1px solid #1EC1C3'}}>send</button>
-
-       </div>
-
-
-     </Modal> */}
+ </main>
+   
      {ModalTransfer?<Portal openconfirm={Sendconfirm} closeModal={Closemodaal}/>:null}
      {ModalConfirmation?<ModalCofin Colseconfirm={closeConfirmationmodal}/>:null}
      {Portalcheck?<Portalll/>:null}
