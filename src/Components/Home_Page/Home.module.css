@@ -1,0 +1,195 @@
+.Header_Home {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+}
+/* header h4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  } */
+
+/* header button {
+    height: 47px;
+    background-color: #00d66c;
+    color: white;
+    width: 176px;
+  } */
+.Expolre {
+  width: 37%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Expolre div {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: gainsboro;
+  border: 1px solid gainsboro;
+  height: 40px;
+}
+.InputDiv input {
+  width: inherit;
+  height: 40px;
+  background: gainsboro;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+}
+.Login {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+
+  width: 400px;
+}
+
+.Login button {
+  height: 47px;
+  background-color: #00d66c;
+  color: white;
+  width: 176px;
+  outline: none;
+  border: 1px solid #00d66c;
+  border-radius: 7px;
+}
+.Login button:hover {
+  cursor: pointer;
+}
+
+::placeholder {
+  color: gray;
+  margin-left: 40px;
+}
+.Main {
+  width: 95%;
+  margin: auto;
+  height: 58px;
+  border-bottom: 1px solid gainsboro;
+  margin-top: 30px;
+}
+
+.InfoLinks {
+  display: flex;
+  width: 22%;
+  justify-content: space-between;
+}
+.Content {
+  width: 95%;
+  display: flex;
+  margin: auto;
+  position: relative;
+
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.ShowCategory{
+  position: absolute;
+  z-index: 1;
+  width: 50%;
+  background-color: #eee;
+  left: 0;
+  border-radius: 7px;
+}
+.AllCourse {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+}
+.THreeDot {
+  display: none;
+  cursor: pointer;
+}
+.map {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin: auto;
+}
+.ShowHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  transition: all 2s;
+}
+.ShowHeader div {
+  width: 86%;
+  background-color: gainsboro;
+}
+.ShowHeader button {
+  height: 47px;
+  background-color: #00d66c;
+  color: white;
+  width: 176px;
+  outline: none;
+  border: 1px solid #00d66c;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+@media (min-width: 1278px){
+  .ShowHeader{
+    display: none;
+  }
+  .ShowCategory{
+    display: none;
+  }
+}
+@media (max-width: 1278px) {
+  .Expolre {
+    display: none;
+  }
+  .Categories {
+    display: none;
+  }
+  .AllCourse div {
+    width: 100%;
+    justify-content: center;
+  }
+  .Login {
+    display: none;
+  }
+  .THreeDot {
+    display: block;
+  }
+  .Header_Home {
+    justify-content: space-between;
+  }
+  .InfoLinks {
+    width: 60%;
+  }
+  .AllCourse {
+    align-items: center;
+  }
+  .map {
+    align-items: center;
+  }
+  .Content {
+    justify-content: center;
+    /* align-items: center; */
+  }
+}
+@media (max-width: 484px) {
+  .InfoLinks {
+    width: 100%;
+  }
+  .Main {
+    height: 85px;
+  }
+  .Main h4 {
+    font-size: 23px;
+  }
+}

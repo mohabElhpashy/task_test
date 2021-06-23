@@ -1,0 +1,105 @@
+    .Header_Diploam{
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px;
+        border-bottom: 1px solid gainsboro;
+    }
+    .Content{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 40px;
+    }
+    .About_Course{
+        display: flex;
+        flex-direction: column;
+    }
+    .Details{
+        display: flex;
+        flex-direction: column;
+        height: 360px;
+        width: 31%;
+        background-color: #eee;
+        border: 1px solid white;
+        border-radius: 6px;
+    }
+    .Description{
+        width: 100%;
+        height: 3rem;
+        background-color: #eee;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    .Wasfcourse{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        width: 30%;
+        margin-right: 128px;
+        font-weight: 500;
+        margin-left: auto;
+        margin-bottom: 75px;
+    }
+    .Wasfcourses{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        width: 91%;
+        margin: auto;
+        margin-right: 128px;
+        font-weight: 500;
+        margin-left: auto;
+        margin-bottom: 75px;
+    }
+    .Footer {
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .Footer div {
+        width: 25%;
+        text-align: right;
+      }
+      .nextandprev{
+        display:flex;
+        width:30%;
+        justify-content:space-between
+      }
+      .AboutCourse__{
+        display:flex;width:30%;
+        justify-content:space-between
+      }
+      @media (max-width: 1315px){
+          .Details{
+              display: none;
+          }
+          .nextandprev{
+              display: none;
+          }
+          .About_Course{
+              align-items: center;
+          }
+          .AboutCourse__{
+              width: 100%;
+              justify-content: space-evenly;
+          }
+          .Wasfcourse{
+              text-align: center;
+              width: 87%;
+            }
+          .AboutHeader2{
+              display: none;
+          }
+          .Content{align-items: center;}
+      }
