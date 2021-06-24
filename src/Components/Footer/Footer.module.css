@@ -10,3 +10,16 @@
   width: 25%;
   text-align: left;
 }
+
+
+.Social{
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+@media (max-width: 1315px){
+  .Social{
+    width: 140%;
+  }
+}

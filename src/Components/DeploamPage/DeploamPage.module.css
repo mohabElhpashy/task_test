@@ -80,6 +80,11 @@
         display:flex;width:30%;
         justify-content:space-between
       }
+      .Social{
+        display:flex;
+        flex-direction: row;
+width: 118%;        justify-content: space-between;
+      }
       @media (max-width: 1315px){
           .Details{
               display: none;
@@ -102,4 +107,7 @@
               display: none;
           }
           .Content{align-items: center;}
+      }
+      .Social{
+          width: 140%;
       }

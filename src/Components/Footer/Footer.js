@@ -21,6 +21,7 @@ function Footer() {
         </p>
         <h5>Join us on Social</h5>
         <div
+        className={Style.Social}
           style={{
             display: "flex",
             flexDirection: "row",

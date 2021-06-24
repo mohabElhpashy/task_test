@@ -153,13 +153,8 @@ import {toArabic} from 'arabic-digits';
         </p>
         <h5>إنضم الينا علي منصتنا </h5>
         <div
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            width: "100%",
-            justifyContent: "space-between",
-            // textAlign:'right'
-          }}
+        className={Style.Social}
+         
         >
           <div>
             <FaFacebookSquare style={{ textAlign:'right'}} size={30} color="white" />
